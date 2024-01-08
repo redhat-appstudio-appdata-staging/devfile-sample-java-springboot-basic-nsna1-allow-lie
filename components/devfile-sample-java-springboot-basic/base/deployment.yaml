@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-java-springboot-basic
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads-stage/msawood-tenant/devfile-sample-java-springboot-basic/devfile-sample-java-springboot-basic@sha256:15133f5322c9043d92ef92c56c402973a923e3607d8cafc981d72343fcdfeead
         name: my-java-springboot
         ports:
         - containerPort: 8081
